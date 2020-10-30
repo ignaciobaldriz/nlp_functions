@@ -4,3 +4,5 @@ beautifulsoup4==4.8.2
 regex==2020.7.14
 nltk==3.5
 wordcloud==1.8.0
+scikit-learn==0.22.2.post1
+sklearn==0.0
