@@ -36,14 +36,14 @@ def text_to_words( raw_text ):
     # 
     # 5. Remove stop words
     meaningful_words = [w for w in words if not w in stops]   
-    #  Lemmatize
+    # 6. Lemmatize
     lemma =[]
     lemmatizer = WordNetLemmatizer()
     for word in meaningful_words:
         lemma_word = lemmatizer.lemmatize(word, pos = "v")
         lemma.append(lemma_word)
     
-    # 6. Join the words back into one string separated by space, and return the result.
+    # 7. Join the words back into one string separated by space, and return the result.
     return( " ".join( lemma ))
     
 # press enter after executing the function
