@@ -1,6 +1,6 @@
 numpy==1.18.2
 pandas==1.0.1
 beautifulsoup4==4.8.2
-re==2.2.1
+regex==2020.7.14
 nltk==3.5
 wordcloud==1.8.0
